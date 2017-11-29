@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F791A4121712FF7E5689CB8 /* Pods_ShipPowerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE410F6D5CE831F02D6A987 /* Pods_ShipPowerTests.framework */; };
+		8B08E87011195690003137C0 /* Pods_ShipPower.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758361329A9A837304EE7319 /* Pods_ShipPower.framework */; };
+		F4444C441FA9C84300223D7A /* SPEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4444C431FA9C84300223D7A /* SPEditView.swift */; };
+		F4444C461FA9EC5300223D7A /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4444C451FA9EC5300223D7A /* EditViewController.swift */; };
+		F4AC77791FA86132003917F0 /* SPDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC77781FA86132003917F0 /* SPDocument.swift */; };
+		F4AC777B1FA864DD003917F0 /* WelcomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC777A1FA864DD003917F0 /* WelcomViewController.swift */; };
+		F4AC777D1FA88540003917F0 /* SPDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AC777C1FA88540003917F0 /* SPDataController.swift */; };
+		F4D504151FA81F9500C746B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D504141FA81F9500C746B8 /* AppDelegate.swift */; };
+		F4D504171FA81F9500C746B8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D504161FA81F9500C746B8 /* MainViewController.swift */; };
+		F4D504191FA81F9500C746B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D504181FA81F9500C746B8 /* Assets.xcassets */; };
+		F4D5041C1FA81F9500C746B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D5041A1FA81F9500C746B8 /* Main.storyboard */; };
+		F4D504281FA81F9600C746B8 /* ShipPowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D504271FA81F9600C746B8 /* ShipPowerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4D504241FA81F9600C746B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4D504091FA81F9500C746B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4D504101FA81F9500C746B8;
+			remoteInfo = ShipPower;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FEF2C77E6A5E73E07E9794B /* Pods-ShipPowerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShipPowerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShipPowerTests/Pods-ShipPowerTests.release.xcconfig"; sourceTree = "<group>"; };
+		758361329A9A837304EE7319 /* Pods_ShipPower.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShipPower.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		815A9DAFEC7C19D8387C1FA9 /* Pods-ShipPower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShipPower.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShipPower/Pods-ShipPower.debug.xcconfig"; sourceTree = "<group>"; };
+		B6B0B156DC246C08B82381F0 /* Pods-ShipPower.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShipPower.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShipPower/Pods-ShipPower.release.xcconfig"; sourceTree = "<group>"; };
+		CBE410F6D5CE831F02D6A987 /* Pods_ShipPowerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShipPowerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7DC28AD854C948702A2E31D /* Pods-ShipPowerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShipPowerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShipPowerTests/Pods-ShipPowerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4444C431FA9C84300223D7A /* SPEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPEditView.swift; sourceTree = "<group>"; };
+		F4444C451FA9EC5300223D7A /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		F4AC77781FA86132003917F0 /* SPDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPDocument.swift; sourceTree = "<group>"; };
+		F4AC777A1FA864DD003917F0 /* WelcomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomViewController.swift; sourceTree = "<group>"; };
+		F4AC777C1FA88540003917F0 /* SPDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPDataController.swift; sourceTree = "<group>"; };
+		F4D504111FA81F9500C746B8 /* ShipPower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShipPower.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D504141FA81F9500C746B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4D504161FA81F9500C746B8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F4D504181FA81F9500C746B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4D5041B1FA81F9500C746B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4D5041D1FA81F9500C746B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4D5041E1FA81F9500C746B8 /* ShipPower.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShipPower.entitlements; sourceTree = "<group>"; };
+		F4D504231FA81F9600C746B8 /* ShipPowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShipPowerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D504271FA81F9600C746B8 /* ShipPowerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipPowerTests.swift; sourceTree = "<group>"; };
+		F4D504291FA81F9600C746B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4D5040E1FA81F9500C746B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B08E87011195690003137C0 /* Pods_ShipPower.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D504201FA81F9600C746B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F791A4121712FF7E5689CB8 /* Pods_ShipPowerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ECB07B9A92B3D793A8C57C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				815A9DAFEC7C19D8387C1FA9 /* Pods-ShipPower.debug.xcconfig */,
+				B6B0B156DC246C08B82381F0 /* Pods-ShipPower.release.xcconfig */,
+				E7DC28AD854C948702A2E31D /* Pods-ShipPowerTests.debug.xcconfig */,
+				1FEF2C77E6A5E73E07E9794B /* Pods-ShipPowerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E5A544EFA754DD8290E4E72B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				758361329A9A837304EE7319 /* Pods_ShipPower.framework */,
+				CBE410F6D5CE831F02D6A987 /* Pods_ShipPowerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4D504081FA81F9500C746B8 = {
+			isa = PBXGroup;
+			children = (
+				F4D504131FA81F9500C746B8 /* ShipPower */,
+				F4D504261FA81F9600C746B8 /* ShipPowerTests */,
+				F4D504121FA81F9500C746B8 /* Products */,
+				1ECB07B9A92B3D793A8C57C9 /* Pods */,
+				E5A544EFA754DD8290E4E72B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F4D504121FA81F9500C746B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4D504111FA81F9500C746B8 /* ShipPower.app */,
+				F4D504231FA81F9600C746B8 /* ShipPowerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4D504131FA81F9500C746B8 /* ShipPower */ = {
+			isa = PBXGroup;
+			children = (
+				F4D504141FA81F9500C746B8 /* AppDelegate.swift */,
+				F4D504161FA81F9500C746B8 /* MainViewController.swift */,
+				F4444C451FA9EC5300223D7A /* EditViewController.swift */,
+				F4AC777A1FA864DD003917F0 /* WelcomViewController.swift */,
+				F4AC777C1FA88540003917F0 /* SPDataController.swift */,
+				F4AC77781FA86132003917F0 /* SPDocument.swift */,
+				F4444C431FA9C84300223D7A /* SPEditView.swift */,
+				F4D504181FA81F9500C746B8 /* Assets.xcassets */,
+				F4D5041A1FA81F9500C746B8 /* Main.storyboard */,
+				F4D5041D1FA81F9500C746B8 /* Info.plist */,
+				F4D5041E1FA81F9500C746B8 /* ShipPower.entitlements */,
+			);
+			path = ShipPower;
+			sourceTree = "<group>";
+		};
+		F4D504261FA81F9600C746B8 /* ShipPowerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4D504271FA81F9600C746B8 /* ShipPowerTests.swift */,
+				F4D504291FA81F9600C746B8 /* Info.plist */,
+			);
+			path = ShipPowerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4D504101FA81F9500C746B8 /* ShipPower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4D5042C1FA81F9600C746B8 /* Build configuration list for PBXNativeTarget "ShipPower" */;
+			buildPhases = (
+				4D8228C841C9F88CEA32EAD6 /* [CP] Check Pods Manifest.lock */,
+				F4D5040D1FA81F9500C746B8 /* Sources */,
+				F4D5040E1FA81F9500C746B8 /* Frameworks */,
+				F4D5040F1FA81F9500C746B8 /* Resources */,
+				422CE8EC7ADE136D5982D81F /* [CP] Embed Pods Frameworks */,
+				F570381995332D9C2A08154D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShipPower;
+			productName = ShipPower;
+			productReference = F4D504111FA81F9500C746B8 /* ShipPower.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4D504221FA81F9600C746B8 /* ShipPowerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4D5042F1FA81F9600C746B8 /* Build configuration list for PBXNativeTarget "ShipPowerTests" */;
+			buildPhases = (
+				E6C0DCBB3DD76CE4657FADDB /* [CP] Check Pods Manifest.lock */,
+				F4D5041F1FA81F9600C746B8 /* Sources */,
+				F4D504201FA81F9600C746B8 /* Frameworks */,
+				F4D504211FA81F9600C746B8 /* Resources */,
+				E1408275F0DD9948370D1734 /* [CP] Embed Pods Frameworks */,
+				A49C12E69EF9B97E5F45D238 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4D504251FA81F9600C746B8 /* PBXTargetDependency */,
+			);
+			name = ShipPowerTests;
+			productName = ShipPowerTests;
+			productReference = F4D504231FA81F9600C746B8 /* ShipPowerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4D504091FA81F9500C746B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = DaiPei;
+				TargetAttributes = {
+					F4D504101FA81F9500C746B8 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					F4D504221FA81F9600C746B8 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F4D504101FA81F9500C746B8;
+					};
+				};
+			};
+			buildConfigurationList = F4D5040C1FA81F9500C746B8 /* Build configuration list for PBXProject "ShipPower" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4D504081FA81F9500C746B8;
+			productRefGroup = F4D504121FA81F9500C746B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4D504101FA81F9500C746B8 /* ShipPower */,
+				F4D504221FA81F9600C746B8 /* ShipPowerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4D5040F1FA81F9500C746B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D504191FA81F9500C746B8 /* Assets.xcassets in Resources */,
+				F4D5041C1FA81F9500C746B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D504211FA81F9600C746B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		422CE8EC7ADE136D5982D81F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ShipPower/Pods-ShipPower-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftCSVExport/SwiftCSVExport.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftCSVExport.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShipPower/Pods-ShipPower-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D8228C841C9F88CEA32EAD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShipPower-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A49C12E69EF9B97E5F45D238 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShipPowerTests/Pods-ShipPowerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1408275F0DD9948370D1734 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShipPowerTests/Pods-ShipPowerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6C0DCBB3DD76CE4657FADDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShipPowerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F570381995332D9C2A08154D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShipPower/Pods-ShipPower-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4D5040D1FA81F9500C746B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D504171FA81F9500C746B8 /* MainViewController.swift in Sources */,
+				F4AC77791FA86132003917F0 /* SPDocument.swift in Sources */,
+				F4D504151FA81F9500C746B8 /* AppDelegate.swift in Sources */,
+				F4AC777B1FA864DD003917F0 /* WelcomViewController.swift in Sources */,
+				F4AC777D1FA88540003917F0 /* SPDataController.swift in Sources */,
+				F4444C441FA9C84300223D7A /* SPEditView.swift in Sources */,
+				F4444C461FA9EC5300223D7A /* EditViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D5041F1FA81F9600C746B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D504281FA81F9600C746B8 /* ShipPowerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4D504251FA81F9600C746B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4D504101FA81F9500C746B8 /* ShipPower */;
+			targetProxy = F4D504241FA81F9600C746B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4D5041A1FA81F9500C746B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4D5041B1FA81F9500C746B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4D5042A1FA81F9600C746B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4D5042B1FA81F9600C746B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		F4D5042D1FA81F9600C746B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 815A9DAFEC7C19D8387C1FA9 /* Pods-ShipPower.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ShipPower/ShipPower.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ShipPower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DaiPei.ShipPower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		F4D5042E1FA81F9600C746B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6B0B156DC246C08B82381F0 /* Pods-ShipPower.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ShipPower/ShipPower.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ShipPower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DaiPei.ShipPower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		F4D504301FA81F9600C746B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7DC28AD854C948702A2E31D /* Pods-ShipPowerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ShipPowerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DaiPei.ShipPowerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShipPower.app/Contents/MacOS/ShipPower";
+			};
+			name = Debug;
+		};
+		F4D504311FA81F9600C746B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FEF2C77E6A5E73E07E9794B /* Pods-ShipPowerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ShipPowerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DaiPei.ShipPowerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShipPower.app/Contents/MacOS/ShipPower";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4D5040C1FA81F9500C746B8 /* Build configuration list for PBXProject "ShipPower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D5042A1FA81F9600C746B8 /* Debug */,
+				F4D5042B1FA81F9600C746B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4D5042C1FA81F9600C746B8 /* Build configuration list for PBXNativeTarget "ShipPower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D5042D1FA81F9600C746B8 /* Debug */,
+				F4D5042E1FA81F9600C746B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4D5042F1FA81F9600C746B8 /* Build configuration list for PBXNativeTarget "ShipPowerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D504301FA81F9600C746B8 /* Debug */,
+				F4D504311FA81F9600C746B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4D504091FA81F9500C746B8 /* Project object */;
+}
