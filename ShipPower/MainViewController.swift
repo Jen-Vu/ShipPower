@@ -90,6 +90,9 @@ class MainViewController: NSViewController, EditViewControllerDelegate {
             evc?.delegate = self
             evc?.toBeUpdateId = idRow
             break
+        case "displayTable"?:
+            
+            break
         default:
             print("never reach here")
         }
