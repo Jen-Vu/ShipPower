@@ -111,8 +111,8 @@ class SPDataController: NSObject {
     private let k03 = Expression<Double>("k03")
     private let kw3 = Expression<Double>("kw3")
     private let load3 = Expression<Int>("load3")
-    var db: Connection?
-    let devices = Table("devices")
+    private var db: Connection?
+    private let devices = Table("devices")
 
     override init() {
         super.init()
