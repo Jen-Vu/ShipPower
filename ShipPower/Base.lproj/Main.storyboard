@@ -768,14 +768,14 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lpc-Xt-M7R">
-                                <rect key="frame" x="0.0" y="303" width="1000" height="397"/>
+                                <rect key="frame" x="0.0" y="194" width="1000" height="506"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <clipView key="contentView" ambiguous="YES" id="dep-a1-kdK">
-                                    <rect key="frame" x="1" y="0.0" width="998" height="396"/>
+                                    <rect key="frame" x="1" y="0.0" width="998" height="505"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <tableView identifier="input" verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowSizeStyle="automatic" headerView="XMk-6D-mve" viewBased="YES" id="nOV-bO-N2T">
-                                            <rect key="frame" x="0.0" y="0.0" width="2230" height="373"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="2230" height="482"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <size key="intercellSpacing" width="3" height="2"/>
                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -1747,7 +1747,7 @@
                                     </subviews>
                                 </clipView>
                                 <scroller key="horizontalScroller" verticalHuggingPriority="750" horizontal="YES" id="RHu-TH-wo0">
-                                    <rect key="frame" x="1" y="380" width="998" height="16"/>
+                                    <rect key="frame" x="1" y="489" width="998" height="16"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="krK-py-N39">
@@ -1760,14 +1760,14 @@
                                 </tableHeaderView>
                             </scrollView>
                             <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vkD-BD-Org">
-                                <rect key="frame" x="0.0" y="0.0" width="1000" height="303"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1000" height="195"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <clipView key="contentView" ambiguous="YES" id="SWJ-jT-QoF">
-                                    <rect key="frame" x="1" y="23" width="998" height="279"/>
+                                    <rect key="frame" x="1" y="23" width="998" height="171"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <tableView identifier="output" verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowSizeStyle="automatic" headerView="PAo-Xz-I2r" viewBased="YES" id="cFu-w8-8f2">
-                                            <rect key="frame" x="0.0" y="0.0" width="998" height="279"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="998" height="171"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <size key="intercellSpacing" width="3" height="2"/>
                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
