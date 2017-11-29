@@ -60,6 +60,7 @@ class MainViewController: NSViewController, EditViewControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         configViews()
         commonInit()
         updateDeviceCount()
@@ -91,7 +92,8 @@ class MainViewController: NSViewController, EditViewControllerDelegate {
             evc?.toBeUpdateId = idRow
             break
         case "displayTable"?:
-            
+            let dvc = segue.destinationController as? DisplayViewController
+            dvc?.dataController = dataController
             break
         default:
             print("never reach here")
